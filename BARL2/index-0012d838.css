@@ -1,0 +1,102 @@
+#app {
+    background-color: transparent
+}
+
+:root,html,body {
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    background-color: transparent;
+    overflow: hidden
+}
+
+.main_bar[data-v-7f56af2e] {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 0;
+    color: #fff
+}
+
+.logo_box[data-v-7f56af2e] {
+    object-fit: scale-down;
+    box-sizing: border-box
+}
+
+.score_box[data-v-7f56af2e],.time_box[data-v-7f56af2e],.name_box[data-v-7f56af2e] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.bottom_bar[data-v-bd57c5e8] {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 0;
+    color: #fff
+}
+
+.game_box[data-v-bd57c5e8],.series_box[data-v-bd57c5e8] {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.top_bar[data-v-6758b77e] {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 0;
+    color: #fff
+}
+
+.boost_bar_inner[data-v-74a0b76b] {
+    height: 100%;
+    transition: width .35s
+}
+
+.right_team_inner_boost[data-v-74a0b76b] {
+    margin-left: auto
+}
+
+.team_box_left[data-v-74a0b76b],.team_box_right[data-v-74a0b76b] {
+    display: flex;
+    flex-flow: column;
+    color: #fff
+}
+
+.player_box[data-v-74a0b76b] {
+    display: flex;
+    position: relative
+}
+
+.selfBox[data-v-446e706f] {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    align-items: center
+}
